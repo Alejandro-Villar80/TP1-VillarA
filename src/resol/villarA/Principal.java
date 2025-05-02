@@ -6,7 +6,7 @@ public class Principal {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Seleccione un ejercicio (1-14):");
         int opcion = scanner.nextInt();
-        scanner.nextLine(); // limpiar buffer
+        scanner.nextLine();
 
         switch (opcion) {
             case 1:
